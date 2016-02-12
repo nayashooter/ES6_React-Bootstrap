@@ -1,7 +1,7 @@
-import React      from 'react';
-import MenuTop    from '../menu/menuTop.jsx!jsx' 
-import MenuBottom    from '../menu/menuBottom.jsx!jsx' 
-
+import React          from 'react';
+import MenuTop        from '../menu/menuTop.jsx!jsx'; 
+import MenuBottom     from '../menu/menuBottom.jsx!jsx'; 
+import RouterCom      from '../router/router.jsx!jsx';
 
 class LayoutComponent extends React.Component {
 
@@ -20,7 +20,7 @@ class LayoutComponent extends React.Component {
 
 		  <div className="container-fluid">
         <MenuTop/>
-
+        <RouterCom/>
         <MenuBottom/>
   		</div>
 

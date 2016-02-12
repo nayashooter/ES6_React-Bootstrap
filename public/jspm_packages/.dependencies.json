@@ -396,5 +396,27 @@
   "npm:invariant@2.2.0": {
     "loose-envify": "npm:loose-envify@^1.0.0",
     "process": "github:jspm/nodelibs-process@^0.1.0"
-  }
+  },
+  "npm:react-router@2.0.0": {
+    "history": "npm:history@^2.0.0",
+    "invariant": "npm:invariant@^2.0.0",
+    "warning": "npm:warning@^2.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "child_process": "github:jspm/nodelibs-child_process@^0.1.0"
+  },
+  "npm:deep-equal@1.0.1": {},
+  "npm:query-string@3.0.0": {
+    "strict-uri-encode": "npm:strict-uri-encode@^1.0.0"
+  },
+  "npm:history@2.0.0": {
+    "deep-equal": "npm:deep-equal@^1.0.0",
+    "invariant": "npm:invariant@^2.0.0",
+    "query-string": "npm:query-string@^3.0.0",
+    "warning": "npm:warning@^2.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "child_process": "github:jspm/nodelibs-child_process@^0.1.0"
+  },
+  "npm:strict-uri-encode@1.1.0": {}
 }

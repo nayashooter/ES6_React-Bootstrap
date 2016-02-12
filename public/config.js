@@ -28,6 +28,7 @@ System.config({
     "react": "npm:react@0.14.3",
     "react-bootstrap": "npm:react-bootstrap@0.28.3",
     "react-dom": "npm:react-dom@0.14.3",
+    "react-router": "npm:react-router@2.0.0",
     "text": "github:systemjs/plugin-text@0.0.4",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -160,6 +161,15 @@ System.config({
     "npm:graceful-readlink@1.0.1": {
       "fs": "github:jspm/nodelibs-fs@0.1.2"
     },
+    "npm:history@2.0.0": {
+      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
+      "deep-equal": "npm:deep-equal@1.0.1",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "invariant": "npm:invariant@2.2.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "query-string": "npm:query-string@3.0.0",
+      "warning": "npm:warning@2.1.0"
+    },
     "npm:https-browserify@0.0.0": {
       "http": "github:jspm/nodelibs-http@1.7.1"
     },
@@ -279,6 +289,9 @@ System.config({
     "npm:punycode@1.3.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:query-string@3.0.0": {
+      "strict-uri-encode": "npm:strict-uri-encode@1.1.0"
+    },
     "npm:react-addons-create-fragment@0.14.7": {
       "react": "npm:react@0.14.7"
     },
@@ -324,6 +337,14 @@ System.config({
       "warning": "npm:warning@2.1.0"
     },
     "npm:react-prop-types@0.3.0": {
+      "warning": "npm:warning@2.1.0"
+    },
+    "npm:react-router@2.0.0": {
+      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "history": "npm:history@2.0.0",
+      "invariant": "npm:invariant@2.2.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
       "warning": "npm:warning@2.1.0"
     },
     "npm:react-tap-event-plugin@0.2.2": {
