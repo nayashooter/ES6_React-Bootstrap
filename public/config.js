@@ -29,6 +29,7 @@ System.config({
     "react-bootstrap": "npm:react-bootstrap@0.28.3",
     "react-dom": "npm:react-dom@0.14.3",
     "react-router": "npm:react-router@2.0.0",
+    "react-router-bootstrap": "npm:react-router-bootstrap@0.20.1",
     "text": "github:systemjs/plugin-text@0.0.4",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -338,6 +339,10 @@ System.config({
     },
     "npm:react-prop-types@0.3.0": {
       "warning": "npm:warning@2.1.0"
+    },
+    "npm:react-router-bootstrap@0.20.1": {
+      "react": "npm:react@0.14.7",
+      "react-router": "npm:react-router@2.0.0"
     },
     "npm:react-router@2.0.0": {
       "child_process": "github:jspm/nodelibs-child_process@0.1.0",

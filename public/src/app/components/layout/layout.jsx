@@ -18,8 +18,8 @@ class LayoutComponent extends React.Component {
 	
   	return (
 
-		  <div className="container-fluid">
-        <MenuTop/>
+		  <div>
+        {/*Header add in router Component*/}
         <RouterCom/>
         <MenuBottom/>
   		</div>

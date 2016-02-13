@@ -15,7 +15,15 @@ class intem3Component extends React.Component {
   render() {
 	
   	return (
-        <h1>Page3</h1>
+         <div className="container">
+          <br/>
+          <div className="well well-sm">
+            <h1 >Page 3</h1>
+          </div>
+
+          {this.props.children}
+
+        </div>
   	);
   }
 }

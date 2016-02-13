@@ -15,8 +15,16 @@ class item2Component extends React.Component {
   render() {
 	
   	return (
-        <h1>Page 2</h1>
-  	);
+         <div className="container">
+          <br/>
+          <div className="well well-sm">
+            <h1 >Page 2</h1>
+          </div>
+
+          {this.props.children}
+
+        </div>
+    );
   }
 }
 
