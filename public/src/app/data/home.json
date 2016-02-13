@@ -1,0 +1,26 @@
+[
+	{
+		name : "TOTO",
+		firstname : "Durand",
+		genre : "male",
+		country : "France",
+		adress : "28 avenue Wall-Street Vosges",
+		codepostal : "77000"
+	},
+	{
+		name : "LUCENAY",
+		firstname : "Pascal",
+		genre : "male",
+		country : "France",
+		adress : "28 avenue Wall-Street Vosges" ,
+		codepostal : "77000"
+	},
+	{
+		name : "LUCENAY",
+		firstname : "André",
+		genre : "male",
+		country : "France",
+		adress : "28 avenue Wall-Street Vosges",
+		codepostal : "77000"
+	}
+]

@@ -32,9 +32,10 @@ class MenuTopComponent extends React.Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem href="#"><Link to="/page1" >Page1</Link></NavItem>
-            <NavItem href="#"><Link to="/page2" >Page2</Link></NavItem>
-            <NavItem href="#"><Link to="/page3" >Page3</Link></NavItem>
+            <NavItem href="/#/home">Home</NavItem>
+            <NavItem href="/#/page1">Page1</NavItem>
+            <NavItem href="/#/page2">Page2</NavItem>
+            <NavItem href="/#/page3">Page3</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

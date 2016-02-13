@@ -1,6 +1,7 @@
 import React              		                    from 'react';
 
 import { Router, Route, IndexRoute ,Link }        from 'react-router';
+import HomeComponent                              from '../body/home.jsx!jsx';
 import Component1				                          from '../body/component1.jsx!jsx';
 import Component2				                          from '../body/component2.jsx!jsx';
 import Component3				                          from '../body/component3.jsx!jsx';
@@ -23,11 +24,13 @@ class routerComponent extends React.Component {
   	return (
       <Router>
 	    <Route path="/" component={MenuTop}>
-        <IndexRoute component={Component1} />
+        <IndexRoute component={HomeComponent} />
+        <Route path="home"  component={HomeComponent}/>
         <Route path="page1" component={Component1}/>
+        <Route path="/page1/:userId" component={Component1}/>
 	      <Route path="page2" component={Component2}/>
         <Route path="page3" component={Component3}/>
-	      {/*<Route path="*" component={ErrorComponent}/>*/}
+	      <Route path="*" component={ErrorComponent}/>
 	    </Route>
 	   </Router>
   	);

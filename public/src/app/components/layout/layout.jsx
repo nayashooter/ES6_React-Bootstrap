@@ -11,6 +11,7 @@ class LayoutComponent extends React.Component {
 
     // In ES6, initial state is set as a property of the class
     this.state = {
+
     }
   }
 
